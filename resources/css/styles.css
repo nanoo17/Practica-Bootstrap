@@ -21,3 +21,17 @@
   width: 350px;
   height: 900px;
 }
+
+#titulo {
+  background-color: darkcyan;
+  color: white;
+  text-align: center;
+}
+
+#datos {
+  color: blue;
+}
+
+#iconos {
+  height: 25px;
+}
