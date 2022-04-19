@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../resources/css/styles.css">
 
-  <title>Document</title>
+  <title>Traductor</title>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-success">
       <div class="container-fluid">
-        <a class="navbar-brand" href="page1.html">Mi Página</a>
+        <a class="navbar-brand">Mi Página</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -39,11 +40,77 @@
         </div>
       </div>
     </nav>
-
-
   </header>
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <form>
+          <div class="row">
+            <div class="col-md-3 col-6 btn btn-secondary">
+              <img id="iconos" src="../resources/images/italia.png">Italiano
+            </div>
+            <div class="col-md-3 col-6 btn btn-secondary">
+              <img id="iconos" src="../resources/images/francia.png" alt="">
+              Frances
+            </div>
+            <div class="col-md-3 col-6 btn btn-secondary">
+              <img id="iconos" src="../resources/images/inglaterra.png">
+              Ingles
+            </div>
+            <div class="col-md-3 col-6 btn btn-secondary">
+              <img id="iconos" src="../resources/images/españa.png">
+              Español
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Traduce algo aqui" id="floatingTextarea"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea">Estoy traduciendo este texto con esta maravillosa app!</label>
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-3 col-6 btn btn-secondary">
+              <img id="iconos" src="../resources/images/italia.png">Italiano
+            </div>
+            <div class="col-md-3 col-6 btn btn-secondary">
+              <img id="iconos" src="../resources/images/francia.png" alt="">
+              Frances
+            </div>
+            <div class="col-md-3 col-6 btn btn-secondary">
+              <img id="iconos" src="../resources/images/inglaterra.png">
+              Ingles
+            </div>
+            <div class="col-md-3 col-6 btn btn-secondary">
+              <img id="iconos" src="../resources/images/españa.png">
+              Español
+            </div>
+          </div>
+          <div class="row mt-3">
+            <button type="button" class="btn btn-info">Traducir</button>
+          </div>
+          <div class="row mt-3">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Traduce algo aqui" id="floatingTextarea"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea">I am translating this text with this wonderful app!</label>
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-4 col-4 btn"> <img id="iconos"
+                src="../node_modules/bootstrap-icons/icons/box-arrow-in-down-right.svg"></div>
+            <div class="col-md-4 col-4 btn"><img id="iconos" src="../node_modules/bootstrap-icons/icons/back.svg">
+            </div>
+            <div class="col-md-4 col-4 btn"><img id="iconos" src="../node_modules/bootstrap-icons/icons/x-square.svg">
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3"></div>
+      </form>
+    </div>
+  </div>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>
